@@ -1,12 +1,12 @@
 # 4-Bit Carry Lookahead Adder
 
-## 📌 Project Description
+##  Project Description
 
 This project implements a **4-bit Carry Lookahead Adder (CLA)** using Verilog HDL.
 
 A Carry Lookahead Adder is a fast adder that calculates carry signals in parallel instead of waiting for the carry to ripple from one bit to the next.
 
-## 🧩 Design
+##  Design
 
 The design has:
 
@@ -28,7 +28,7 @@ The design has:
               └───────────┘
 ```
 
-## ⚙️ Working Principle
+##  Working Principle
 
 The CLA uses two important signals for every bit:
 
@@ -69,7 +69,7 @@ Sum = P ^ C
 Cout = C4
 ```
 
-## 📁 Files
+##  Files
 
 ```text
 4-bit-carry-lookahead-adder/
@@ -86,8 +86,7 @@ Contains the main **4-bit CLA design**.
 
 Contains the testbench used to verify the design using `$monitor`.
 
-## 🧪 Test Cases
-
+##  Test Cases
 The testbench checks different combinations of:
 
 * Addition without carry
@@ -104,7 +103,7 @@ A=1111 B=0001 Cin=0 | Sum=0000 Cout=1
 A=1010 B=0101 Cin=1 | Sum=0000 Cout=1
 ```
 
-## 🚀 Key Advantage
+##  Key Advantage
 
 ### Ripple Carry Adder
 
@@ -127,13 +126,13 @@ Carry signals are calculated directly using Generate and Propagate signals.
 
 **Result:** CLA provides faster carry calculation than a basic Ripple Carry Adder.
 
-## 🛠️ Tools
+## Tools
 
 * Verilog HDL
 * EDA Playground / ModelSim / Questa / Vivado
 * `$monitor` for simulation output
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 * Understanding Carry Lookahead Adders
 * Generate and Propagate concepts
@@ -142,6 +141,6 @@ Carry signals are calculated directly using Generate and Propagate signals.
 * Writing a basic Verilog testbench
 * Simulation and verification using `$monitor`
 
-## 📜 License
+##  License
 
 This project is created for learning and educational purposes.
