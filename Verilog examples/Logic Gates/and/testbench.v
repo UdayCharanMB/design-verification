@@ -1,7 +1,7 @@
 module tb;
   reg a,b;
   wire y;
-  and_gate uut(.a(a),.b(b),.c(c));
+  and_gate uut(.a(a),.b(b),.y(y));
   initial begin
     $dumpfile("dump.vcd");
     $dumpvars(1,tb);
